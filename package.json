@@ -1,0 +1,21 @@
+{
+    "name": "app_name",
+    "version": "1.0.0",
+    "engines": {
+        "node": ">=10"
+    },
+    "scripts": {
+        "dev": "SET NODE_ENV=development && npm-run-all start",
+        "start": "babel-node index.js"
+    },
+    "dependencies": {
+        "redux": "4.0.4",
+        "npm-run-all": "^4.1.5"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.7.7",
+        "@babel/core": "^7.7.7",
+        "@babel/node": "^7.7.7",
+        "@babel/preset-env": "^7.7.7"
+    }
+}
