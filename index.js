@@ -1,4 +1,3 @@
-import { createStore } from 'redux';
+import { createStore } from "redux";
 
-console.log('It worked!!');
-
+console.log("It worked!");
